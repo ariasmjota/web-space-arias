@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/web-space-arias/static/css/main.5188b02f.chunk.css",
+    "main.js": "/web-space-arias/static/js/main.6420748f.chunk.js",
+    "main.js.map": "/web-space-arias/static/js/main.6420748f.chunk.js.map",
+    "runtime-main.js": "/web-space-arias/static/js/runtime-main.6c9ef09c.js",
+    "runtime-main.js.map": "/web-space-arias/static/js/runtime-main.6c9ef09c.js.map",
+    "static/js/2.48536cd2.chunk.js": "/web-space-arias/static/js/2.48536cd2.chunk.js",
+    "static/js/2.48536cd2.chunk.js.map": "/web-space-arias/static/js/2.48536cd2.chunk.js.map",
+    "index.html": "/web-space-arias/index.html",
+    "precache-manifest.0a2b894d39c0e1c5a01be7f3b2b3fbd8.js": "/web-space-arias/precache-manifest.0a2b894d39c0e1c5a01be7f3b2b3fbd8.js",
+    "service-worker.js": "/web-space-arias/service-worker.js",
+    "static/css/main.5188b02f.chunk.css.map": "/web-space-arias/static/css/main.5188b02f.chunk.css.map",
+    "static/js/2.48536cd2.chunk.js.LICENSE.txt": "/web-space-arias/static/js/2.48536cd2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6c9ef09c.js",
+    "static/js/2.48536cd2.chunk.js",
+    "static/css/main.5188b02f.chunk.css",
+    "static/js/main.6420748f.chunk.js"
+  ]
+}
