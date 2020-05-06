@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bcbe0652303a81408b4e7112f3cd666c",
+    "revision": "d57991b874a2af120eeffbbdf157bb20",
     "url": "/web-space-arias/index.html"
   },
   {
-    "revision": "4618755f8dfe5a836da6",
+    "revision": "15ee54572a02651a8738",
     "url": "/web-space-arias/static/css/main.5188b02f.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/web-space-arias/static/js/2.48536cd2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4618755f8dfe5a836da6",
-    "url": "/web-space-arias/static/js/main.ab4d73b1.chunk.js"
+    "revision": "15ee54572a02651a8738",
+    "url": "/web-space-arias/static/js/main.b8da333b.chunk.js"
   },
   {
     "revision": "4aa9026a3265b0a22e96",

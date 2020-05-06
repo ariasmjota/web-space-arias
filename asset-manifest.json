@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/web-space-arias/static/css/main.5188b02f.chunk.css",
-    "main.js": "/web-space-arias/static/js/main.ab4d73b1.chunk.js",
-    "main.js.map": "/web-space-arias/static/js/main.ab4d73b1.chunk.js.map",
+    "main.js": "/web-space-arias/static/js/main.b8da333b.chunk.js",
+    "main.js.map": "/web-space-arias/static/js/main.b8da333b.chunk.js.map",
     "runtime-main.js": "/web-space-arias/static/js/runtime-main.6c9ef09c.js",
     "runtime-main.js.map": "/web-space-arias/static/js/runtime-main.6c9ef09c.js.map",
     "static/js/2.48536cd2.chunk.js": "/web-space-arias/static/js/2.48536cd2.chunk.js",
     "static/js/2.48536cd2.chunk.js.map": "/web-space-arias/static/js/2.48536cd2.chunk.js.map",
     "index.html": "/web-space-arias/index.html",
-    "precache-manifest.c8d917590e519eccf0f78363bf5d4620.js": "/web-space-arias/precache-manifest.c8d917590e519eccf0f78363bf5d4620.js",
+    "precache-manifest.ebd7728e7513e5b9f2a98b446f15fa22.js": "/web-space-arias/precache-manifest.ebd7728e7513e5b9f2a98b446f15fa22.js",
     "service-worker.js": "/web-space-arias/service-worker.js",
     "static/css/main.5188b02f.chunk.css.map": "/web-space-arias/static/css/main.5188b02f.chunk.css.map",
     "static/js/2.48536cd2.chunk.js.LICENSE.txt": "/web-space-arias/static/js/2.48536cd2.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.6c9ef09c.js",
     "static/js/2.48536cd2.chunk.js",
     "static/css/main.5188b02f.chunk.css",
-    "static/js/main.ab4d73b1.chunk.js"
+    "static/js/main.b8da333b.chunk.js"
   ]
 }
