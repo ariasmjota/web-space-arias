@@ -7,6 +7,7 @@ import Login from '../Login/Login';
 
 function App() {
   return (
+   
     <Router>
       <Route path="/" exact component={Login}/>
       <Route path="/game" exact component={Main}/>

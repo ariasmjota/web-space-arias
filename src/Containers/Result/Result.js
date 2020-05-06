@@ -21,6 +21,7 @@ function Result() {
   return (
 
     <div className="">
+       <audio  src="./sound/sound3.mp3" autoPlay></audio>
 
       <article className="Banner__background">
         <img className="Banner__background" src="./images/bg.png" alt="" />

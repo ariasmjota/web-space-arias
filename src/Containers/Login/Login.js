@@ -5,10 +5,10 @@ function Login() {
   return (
 
     <section className="Banner">
-        <audio  src="./sound/sound2.mp3" autoPlay></audio>
+        <audio  src="./sound/sound1.mp3" autoPlay></audio>
           
         <article className="Banner__background">
-        <img  className="Banner__background" src="/images/bg.png" alt="" />
+        <img  className="Banner__background" src="./images/bg.png" alt="" />
         </article>
         
 
@@ -31,8 +31,8 @@ function Login() {
       <div className="Banner-right">
         <section className="Banner-right--animation" >
 
-        <img className="Banner-right--animation__planet" src="/images/planet.svg" alt="" />
-        <img className="Banner-right--animation__astronaut" src="/images/austro.svg" alt="" />
+        <img className="Banner-right--animation__planet" src="./images/planet.svg" alt="" />
+        <img className="Banner-right--animation__astronaut" src="./images/austro.svg" alt="" />
         
         </section>
       </div>

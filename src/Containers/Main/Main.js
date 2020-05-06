@@ -62,13 +62,14 @@ function Main() {
 
         planetList.push(object);
         console.log(object);
+        alert("Tu planeta" + " " + object.name +" " + "Se ha guardado en tu universo" )
         localStorage.setItem("planetList", JSON.stringify(planetList));
 
     }
 
     return (
         <div className="Game">
-            <audio  src="./sound/sound2.mp3" autoPlay></audio>
+          <audio  src="./sound/sound2.mp3" autoPlay></audio>
             <article className="Banner__background">
                 <img className="Banner__background" src="./images/bg.png" alt="" />
             </article>
