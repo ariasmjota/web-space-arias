@@ -1,0 +1,53 @@
+.Game {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+
+    &__Componets {
+        &-name {
+            justify-items: center;
+            color: #c2c2c8;
+            margin-top: -2%;
+            margin-left: 32%;
+            font-weight: 500;
+            font-size: xxx-large;
+        }
+        &--inputs {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            width: 80%;
+            box-sizing: border-box;
+            color: #6a9ed3;
+            margin-left: 10%;
+            margin-bottom: 0%;
+            font-weight: 200;
+            font-size: x-large;
+        }
+        &--save {
+        }
+        &--gallery {
+        }
+        &--view {
+            margin-top: -3%;
+        }
+    }
+    &__bottom button {
+        margin-left: 10%;
+        margin-top: 2%;
+        background-color: #6a9ed3;
+
+        border: none;
+        width: 300px;
+        border-radius: 10px;
+
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin-left: 20%;
+    }
+}

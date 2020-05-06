@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  margin:0px;
+  padding: 0px;
+
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://fonts.googleapis.com/css?family=Barlow&display=swap');; /* IE9 Compat Modes */
+
+}
+
+@import 'Containers/Login/Login';
+@import 'Containers/Main/Game';
+@import 'Components/Name/Name';
+@import 'Components/Sketch/Sketch';
+

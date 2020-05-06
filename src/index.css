@@ -1,13 +1,207 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.googleapis.com/css?family=Barlow&display=swap");
+  /* IE9 Compat Modes */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.Banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  position: relative;
 }
+
+.Banner__background {
+  position: fixed;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -2;
+}
+
+.Banner__background img {
+  width: 200%;
+  height: 200%;
+  top: -60%;
+  left: -70%;
+}
+
+.Banner__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Banner__left-top {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #6a9ed3;
+  margin-left: 10%;
+  margin-top: 35%;
+  margin-bottom: 0%;
+  font-weight: 500;
+  font-size: xxx-large;
+}
+
+.Banner__left-center {
+  color: #c2c2c8;
+  margin-left: 10%;
+  margin-top: -10%;
+  font-weight: 100;
+  font-size: x-large;
+}
+
+.Banner__left-bottom button {
+  margin-left: 10%;
+  margin-top: 5%;
+  background-color: #6a9ed3;
+  border: none;
+  width: 300px;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.Banner-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  color: red;
+}
+
+.Banner-right--animation {
+  position: relative;
+  width: 60%;
+}
+
+.Banner-right--animation__planet {
+  position: absolute;
+  top: 38%;
+  left: 22%;
+  width: 55%;
+  -webkit-animation: spin 4s linear infinite;
+          animation: spin 4s linear infinite;
+  z-index: -1;
+}
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.Banner-right--animation__astrounaut {
+  position: absolute;
+  width: 100%;
+}
+
+.Game {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Game__Componets-name {
+  justify-items: center;
+  color: #c2c2c8;
+  margin-top: -2%;
+  margin-left: 32%;
+  font-weight: 500;
+  font-size: xxx-large;
+}
+
+.Game__Componets--inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 80%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #6a9ed3;
+  margin-left: 10%;
+  margin-bottom: 0%;
+  font-weight: 200;
+  font-size: x-large;
+}
+
+.Game__Componets--view {
+  margin-top: -3%;
+}
+
+.Game__bottom button {
+  margin-left: 10%;
+  margin-top: 2%;
+  background-color: #6a9ed3;
+  border: none;
+  width: 300px;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 20%;
+}
+
+.Name__Planet {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: white;
+  margin-left: 40%;
+  margin-bottom: 0%;
+  font-weight: 500;
+  font-size: x-large;
+  padding: 0px;
+}
+/*# sourceMappingURL=index.css.map */

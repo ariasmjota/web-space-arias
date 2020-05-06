@@ -1,0 +1,94 @@
+.Banner {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  position: relative;
+
+  &__background {
+    position: fixed;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -2;
+    & img {
+      width: 200%;
+      height: 200%;
+      top: -60%;
+      left: -70%;
+    }
+  }
+
+  &__left {
+    display: flex;
+    flex-direction: column;
+
+    &-top {
+      box-sizing: border-box;
+      color: #6a9ed3;
+      margin-left: 10%;
+      margin-top: 35%;
+      margin-bottom: 0%;
+      font-weight: 500;
+      font-size: xxx-large;
+    }
+
+    &-center {
+      color: #c2c2c8;
+      margin-left: 10%;
+      margin-top: -10%;
+      font-weight: 100;
+      font-size: x-large;
+    }
+
+    &-bottom button {
+      margin-left: 10%;
+      margin-top: 5%;
+      background-color: #6a9ed3;
+
+      border: none;
+      width: 300px;
+      border-radius: 10px;
+
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+    }
+  }
+
+  &-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: red;
+
+    &--animation {
+      position: relative;
+      width: 60%;
+
+      &__planet  {
+        position: absolute;
+        top: 38%;
+        left: 22%;
+        width: 55%;
+        animation: spin 4s linear infinite;
+      z-index: -1;
+    @keyframes spin {
+        100% {
+          -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+        }
+      }
+    }
+
+      &__astrounaut {
+        position: absolute;
+        width: 100%;
+      }
+    }
+  }
+}
