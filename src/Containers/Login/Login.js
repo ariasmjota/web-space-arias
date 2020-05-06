@@ -5,6 +5,8 @@ function Login() {
   return (
 
     <section className="Banner">
+        <audio  src="./sound/sound2.mp3" autoPlay></audio>
+          
         <article className="Banner__background">
         <img  className="Banner__background" src="/images/bg.png" alt="" />
         </article>
